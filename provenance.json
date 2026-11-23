@@ -16,5 +16,62 @@
     "size": 1117320736,
     "sha256": "6a1a2eb6d15622bf3c96857206351ba97e1af16c30d7a74ee38970e434e9407e",
     "license": "Apache-2.0"
+  },
+  {
+    "kind": "speech",
+    "repo": "thewh1teagle/kokoro-onnx",
+    "revision": "model-files-v1.1",
+    "file": "kokoro-v1.0.onnx",
+    "size": 325505369,
+    "sha256": "beb0d1848dee9a49da392cc3df26958d46cfa35d321edf434f52949153f0df3a",
+    "license": "Apache-2.0",
+    "original": "hexgrad/Kokoro-82M",
+    "voices": [],
+    "upstreamAssets": [
+      {
+        "file": "kokoro-v1.0.onnx",
+        "url": "https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.1/kokoro-v1.0.onnx",
+        "size": 325505369,
+        "sha256": "beb0d1848dee9a49da392cc3df26958d46cfa35d321edf434f52949153f0df3a"
+      },
+      {
+        "file": "voices-v1.0.bin",
+        "url": "https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.1/voices-v1.0.bin",
+        "size": 28214398,
+        "sha256": "bca610b8308e8d99f32e6fe4197e7ec01679264efed0cac9140fe9c29f1fbf7d"
+      }
+    ]
+  },
+  {
+    "kind": "voices",
+    "repo": "thewh1teagle/kokoro-onnx",
+    "revision": "model-files-v1.1",
+    "file": "voices.vqkv",
+    "size": 3133552,
+    "sha256": "a78aec055c82a02ed88a27edce6063353fbccf21cbad0ff09eeea0f098bdbfb4",
+    "license": "Apache-2.0",
+    "original": "hexgrad/Kokoro-82M",
+    "voices": [
+      "pf_dora",
+      "pm_alex",
+      "bf_emma",
+      "bm_george",
+      "ef_dora",
+      "em_alex"
+    ],
+    "upstreamAssets": [
+      {
+        "file": "kokoro-v1.0.onnx",
+        "url": "https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.1/kokoro-v1.0.onnx",
+        "size": 325505369,
+        "sha256": "beb0d1848dee9a49da392cc3df26958d46cfa35d321edf434f52949153f0df3a"
+      },
+      {
+        "file": "voices-v1.0.bin",
+        "url": "https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.1/voices-v1.0.bin",
+        "size": 28214398,
+        "sha256": "bca610b8308e8d99f32e6fe4197e7ec01679264efed0cac9140fe9c29f1fbf7d"
+      }
+    ]
   }
 ]
